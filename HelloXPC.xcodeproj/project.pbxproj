@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2A6676120FEE7FB00BB6ED9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A6676020FEE7FB00BB6ED9 /* AppDelegate.m */; };
+		E2A6676420FEE7FB00BB6ED9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A6676320FEE7FB00BB6ED9 /* main.m */; };
+		E2A6676720FEE7FB00BB6ED9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A6676620FEE7FB00BB6ED9 /* ViewController.m */; };
+		E2A6676920FEE7FB00BB6ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A6676820FEE7FB00BB6ED9 /* Assets.xcassets */; };
+		E2A6676C20FEE7FB00BB6ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A6676A20FEE7FB00BB6ED9 /* Main.storyboard */; };
+		E2A6677C20FEE82200BB6ED9 /* XPCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A6677B20FEE82200BB6ED9 /* XPCHelper.m */; };
+		E2A6677E20FEE82200BB6ED9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A6677D20FEE82200BB6ED9 /* main.m */; };
+		E2A6678220FEE82200BB6ED9 /* XPCHelper.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = E2A6677720FEE82200BB6ED9 /* XPCHelper.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2A6678020FEE82200BB6ED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2A6675420FEE7FB00BB6ED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2A6677620FEE82200BB6ED9;
+			remoteInfo = XPCHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2A6678620FEE82200BB6ED9 /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				E2A6678220FEE82200BB6ED9 /* XPCHelper.xpc in Embed XPC Services */,
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E2A6675C20FEE7FB00BB6ED9 /* HelloXPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloXPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A6675F20FEE7FB00BB6ED9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2A6676020FEE7FB00BB6ED9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2A6676320FEE7FB00BB6ED9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2A6676520FEE7FB00BB6ED9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2A6676620FEE7FB00BB6ED9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2A6676820FEE7FB00BB6ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2A6676B20FEE7FB00BB6ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2A6676D20FEE7FB00BB6ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A6677720FEE82200BB6ED9 /* XPCHelper.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = XPCHelper.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A6677920FEE82200BB6ED9 /* XPCHelperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPCHelperProtocol.h; sourceTree = "<group>"; };
+		E2A6677A20FEE82200BB6ED9 /* XPCHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPCHelper.h; sourceTree = "<group>"; };
+		E2A6677B20FEE82200BB6ED9 /* XPCHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPCHelper.m; sourceTree = "<group>"; };
+		E2A6677D20FEE82200BB6ED9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2A6677F20FEE82200BB6ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A6678720FEE86000BB6ED9 /* XPCToProjProtoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCToProjProtoc.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2A6675920FEE7FB00BB6ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A6677420FEE82200BB6ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2A6675320FEE7FB00BB6ED9 = {
+			isa = PBXGroup;
+			children = (
+				E2A6675E20FEE7FB00BB6ED9 /* HelloXPC */,
+				E2A6677820FEE82200BB6ED9 /* XPCHelper */,
+				E2A6675D20FEE7FB00BB6ED9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2A6675D20FEE7FB00BB6ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2A6675C20FEE7FB00BB6ED9 /* HelloXPC.app */,
+				E2A6677720FEE82200BB6ED9 /* XPCHelper.xpc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2A6675E20FEE7FB00BB6ED9 /* HelloXPC */ = {
+			isa = PBXGroup;
+			children = (
+				E2A6675F20FEE7FB00BB6ED9 /* AppDelegate.h */,
+				E2A6676020FEE7FB00BB6ED9 /* AppDelegate.m */,
+				E2A6676520FEE7FB00BB6ED9 /* ViewController.h */,
+				E2A6676620FEE7FB00BB6ED9 /* ViewController.m */,
+				E2A6678720FEE86000BB6ED9 /* XPCToProjProtoc.h */,
+				E2A6676820FEE7FB00BB6ED9 /* Assets.xcassets */,
+				E2A6676A20FEE7FB00BB6ED9 /* Main.storyboard */,
+				E2A6676D20FEE7FB00BB6ED9 /* Info.plist */,
+				E2A6676220FEE7FB00BB6ED9 /* Supporting Files */,
+			);
+			path = HelloXPC;
+			sourceTree = "<group>";
+		};
+		E2A6676220FEE7FB00BB6ED9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2A6676320FEE7FB00BB6ED9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2A6677820FEE82200BB6ED9 /* XPCHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E2A6677920FEE82200BB6ED9 /* XPCHelperProtocol.h */,
+				E2A6677A20FEE82200BB6ED9 /* XPCHelper.h */,
+				E2A6677B20FEE82200BB6ED9 /* XPCHelper.m */,
+				E2A6677D20FEE82200BB6ED9 /* main.m */,
+				E2A6677F20FEE82200BB6ED9 /* Info.plist */,
+			);
+			path = XPCHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2A6675B20FEE7FB00BB6ED9 /* HelloXPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A6677020FEE7FB00BB6ED9 /* Build configuration list for PBXNativeTarget "HelloXPC" */;
+			buildPhases = (
+				E2A6675820FEE7FB00BB6ED9 /* Sources */,
+				E2A6675920FEE7FB00BB6ED9 /* Frameworks */,
+				E2A6675A20FEE7FB00BB6ED9 /* Resources */,
+				E2A6678620FEE82200BB6ED9 /* Embed XPC Services */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2A6678120FEE82200BB6ED9 /* PBXTargetDependency */,
+			);
+			name = HelloXPC;
+			productName = HelloXPC;
+			productReference = E2A6675C20FEE7FB00BB6ED9 /* HelloXPC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2A6677620FEE82200BB6ED9 /* XPCHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A6678320FEE82200BB6ED9 /* Build configuration list for PBXNativeTarget "XPCHelper" */;
+			buildPhases = (
+				E2A6677320FEE82200BB6ED9 /* Sources */,
+				E2A6677420FEE82200BB6ED9 /* Frameworks */,
+				E2A6677520FEE82200BB6ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPCHelper;
+			productName = XPCHelper;
+			productReference = E2A6677720FEE82200BB6ED9 /* XPCHelper.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2A6675420FEE7FB00BB6ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lpc;
+				TargetAttributes = {
+					E2A6675B20FEE7FB00BB6ED9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					E2A6677620FEE82200BB6ED9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E2A6675720FEE7FB00BB6ED9 /* Build configuration list for PBXProject "HelloXPC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2A6675320FEE7FB00BB6ED9;
+			productRefGroup = E2A6675D20FEE7FB00BB6ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2A6675B20FEE7FB00BB6ED9 /* HelloXPC */,
+				E2A6677620FEE82200BB6ED9 /* XPCHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2A6675A20FEE7FB00BB6ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A6676920FEE7FB00BB6ED9 /* Assets.xcassets in Resources */,
+				E2A6676C20FEE7FB00BB6ED9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A6677520FEE82200BB6ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2A6675820FEE7FB00BB6ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A6676720FEE7FB00BB6ED9 /* ViewController.m in Sources */,
+				E2A6676420FEE7FB00BB6ED9 /* main.m in Sources */,
+				E2A6676120FEE7FB00BB6ED9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A6677320FEE82200BB6ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A6677E20FEE82200BB6ED9 /* main.m in Sources */,
+				E2A6677C20FEE82200BB6ED9 /* XPCHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2A6678120FEE82200BB6ED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2A6677620FEE82200BB6ED9 /* XPCHelper */;
+			targetProxy = E2A6678020FEE82200BB6ED9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2A6676A20FEE7FB00BB6ED9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2A6676B20FEE7FB00BB6ED9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2A6676E20FEE7FB00BB6ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E2A6676F20FEE7FB00BB6ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E2A6677120FEE7FB00BB6ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloXPC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpc.HelloXPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2A6677220FEE7FB00BB6ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloXPC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpc.HelloXPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2A6678420FEE82200BB6ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XPCHelper/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpc.XPCHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E2A6678520FEE82200BB6ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XPCHelper/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpc.XPCHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2A6675720FEE7FB00BB6ED9 /* Build configuration list for PBXProject "HelloXPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A6676E20FEE7FB00BB6ED9 /* Debug */,
+				E2A6676F20FEE7FB00BB6ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A6677020FEE7FB00BB6ED9 /* Build configuration list for PBXNativeTarget "HelloXPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A6677120FEE7FB00BB6ED9 /* Debug */,
+				E2A6677220FEE7FB00BB6ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2A6678320FEE82200BB6ED9 /* Build configuration list for PBXNativeTarget "XPCHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A6678420FEE82200BB6ED9 /* Debug */,
+				E2A6678520FEE82200BB6ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2A6675420FEE7FB00BB6ED9 /* Project object */;
+}
